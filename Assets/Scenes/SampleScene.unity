@@ -329,7 +329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cf3fdd1306c110542b218065cc234e6f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 583130827}
   - component: {fileID: 583130826}
   - component: {fileID: 583130828}
+  - component: {fileID: 583130829}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -424,6 +425,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 6926169588172227821, guid: 90c928cda28882c4ba9197613f72406d, type: 3}
   m_DetectionMode: -1
+--- !u!114 &583130829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583130825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,12 +620,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: b32aa74e-55e7-465a-87da-f996ccd4e569
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: fa52f5ca-8d9b-4b58-95d8-c7f0ab57d341
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -634,12 +648,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: f4ae8ead-7323-4ec7-a17e-33105a081418
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 2679ec16-2048-4a07-af35-72b0fcded23b
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -787,7 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b89d3c045d79b44cb2b597972347712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AR_Object_To_Spawn: {fileID: 0}
+  AR_Object_To_Spawn: {fileID: 7266238153524839405, guid: e6d7763361ed0c84ea50ad9d50e2d34c, type: 3}
   placement_Indicator: {fileID: 348271757}
 --- !u!4 &1837722548
 Transform:
